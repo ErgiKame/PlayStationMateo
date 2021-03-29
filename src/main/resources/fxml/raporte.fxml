@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="725.0" prefWidth="959.0" type="VBox" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Xhiro PC" textAlignment="CENTER" textFill="#4186ce" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpFromXhiroPc" defaultColor="#4186ce" editable="false" prefHeight="39.0" prefWidth="321.0" promptText="Nga*" style="-fx-font-size: 18px;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXDatePicker>
+                     </children>
+                     <VBox.margin>
+                        <Insets right="25.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpToXhiroPc" defaultColor="#4186ce" editable="false" prefHeight="39.0" prefWidth="321.0" promptText="Deri Ne*" style="-fx-font-size: 18px;" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="49.0" prefWidth="439.0">
+                     <children>
+                        <JFXButton maxHeight="1.7976931348623157E308" onAction="#llogaritXhiroPc" prefWidth="150.0" style="-fx-background-color: #4186ce;" text="Llogarit" textFill="WHITE" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Label fx:id="vleraXhiroPc" maxWidth="1.7976931348623157E308" prefHeight="32.0" prefWidth="439.0" text="Vlera eshte : ">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="20.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Xhiro Pije" textAlignment="CENTER" textFill="#4186ce" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpFromXhiroPije" defaultColor="#4186ce" editable="false" prefHeight="39.0" prefWidth="321.0" promptText="Nga*" style="-fx-font-size: 18px;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXDatePicker>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpToXhiroPije" defaultColor="#4186ce" editable="false" prefHeight="39.0" prefWidth="321.0" promptText="Deri Ne*" style="-fx-font-size: 18px;" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="129.0">
+                     <children>
+                        <JFXComboBox fx:id="cmbZgjidhUserXhiroPije" maxWidth="-Infinity" prefHeight="45.0" prefWidth="300.0" promptText="*Zgjidh User" style="-fx-font-size: 18;" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="129.0" prefHeight="49.0" prefWidth="439.0">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <children>
+                        <JFXButton maxHeight="1.7976931348623157E308" onAction="#llogaritXhiroPije" prefWidth="150.0" style="-fx-background-color: #4186ce;" text="Llogarit" textFill="WHITE" />
+                     </children>
+                  </HBox>
+                  <Label fx:id="vleraXhiroPije" maxWidth="1.7976931348623157E308" prefHeight="32.0" prefWidth="439.0" text="Vlera eshte : ">
+                     <VBox.margin>
+                        <Insets left="5.0" top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="35.0" prefHeight="151.0" prefWidth="1071.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets left="20.0" right="10.0" />
+               </HBox.margin>
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Xhiro PS" textAlignment="CENTER" textFill="#4186ce" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpFromXhiroPs" defaultColor="#4186ce" editable="false" prefHeight="39.0" prefWidth="321.0" promptText="Nga*" style="-fx-font-size: 18px;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXDatePicker>
+                     </children>
+                     <VBox.margin>
+                        <Insets right="25.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="39.0" prefWidth="412.0">
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpToXhiroPs" defaultColor="#4186ce" editable="false" prefHeight="39.0" prefWidth="321.0" promptText="Deri Ne*" style="-fx-font-size: 18px;" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="509.0">
+                     <children>
+                        <JFXButton maxHeight="1.7976931348623157E308" onAction="#llogaritXhiroPs" prefWidth="150.0" style="-fx-background-color: #4186ce;" text="Llogarit" textFill="WHITE" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Label fx:id="vleraXhiroPs" maxWidth="1.7976931348623157E308" text="Vlera eshte : ">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lblError" prefHeight="49.0" prefWidth="360.0" textFill="#da251e">
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Pije Stafi" textAlignment="CENTER" textFill="#4186ce" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpFromPijeStafi" defaultColor="#4186ce" editable="false" maxWidth="-Infinity" prefHeight="39.0" prefWidth="321.0" promptText="Nga*" style="-fx-font-size: 18px;" HBox.hgrow="NEVER">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXDatePicker>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/calendar.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="25.0" top="5.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXDatePicker fx:id="dpToPijeStafi" defaultColor="#4186ce" editable="false" maxWidth="-Infinity" prefHeight="39.0" prefWidth="321.0" promptText="Deri Ne*" style="-fx-font-size: 18px;" HBox.hgrow="NEVER" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <JFXComboBox fx:id="cmbZgjidhUser" maxWidth="-Infinity" prefHeight="45.0" prefWidth="300.0" promptText="*Zgjidh User" style="-fx-font-size: 18;" VBox.vgrow="NEVER">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                  </JFXComboBox>
+                  <JFXComboBox fx:id="cmbZgjidhPije" maxWidth="-Infinity" prefHeight="45.0" prefWidth="300.0" promptText="*Zgjidh Pije" style="-fx-font-size: 18;" VBox.vgrow="NEVER">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </JFXComboBox>
+                  <HBox>
+                     <VBox.margin>
+                        <Insets left="5.0" top="20.0" />
+                     </VBox.margin>
+                     <children>
+                        <JFXButton maxHeight="-Infinity" onAction="#llogaritPijeStafi" prefHeight="44.0" prefWidth="150.0" style="-fx-background-color: #4186ce;" text="Llogarit" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets right="25.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <Label fx:id="vleraPijeStafi" maxWidth="1.7976931348623157E308" prefHeight="34.0" prefWidth="257.0" text="Sasia eshte : ">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+   </children>
+</fx:root>

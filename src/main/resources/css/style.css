@@ -1,0 +1,125 @@
+.btn {
+	-fx-border-color :  #DA251E;
+	-fx-border-width : 0px 0px 1px 0px;
+}
+
+.btnDil {
+   -fx-background-color : white;
+     -fx-graphic: url("../images/logout.png");
+}
+
+.btnSubmit {
+	-fx-background-color : #DA251E;
+     -fx-graphic: url("../images/submit.png");
+}
+
+.btnChangePassword {
+     -fx-graphic: url("../images/password-red.png");
+}
+
+
+.btnShitjet {
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/sales.png");
+}
+
+
+.btnShitjet:focused {
+     -fx-graphic: url("../images/sales-white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+
+.btnInventari {
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/inventory.png");
+}
+
+.btnInventari:focused {
+     -fx-graphic: url("../images/inventory-white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+.btnFurnizim{
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/supply.png");
+}
+
+.btnFurnizim:focused {
+     -fx-graphic: url("../images/supply-white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+.btnArtikuj{
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/artikuj.png");
+}
+
+.btnArtikuj:focused {
+     -fx-graphic: url("../images/artikuj-white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+
+.btnRaporte {
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/raporte.png");
+}
+
+.btnRaporte:focused {
+     -fx-graphic: url("../images/raporte-white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+.btnPerdoruesit {
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/perdoruesit.png");
+}
+
+.btnPerdoruesit:focused {
+     -fx-graphic: url("../images/perdoruesit-white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+.btnXhiroDitore {
+	 -fx-background-color : white;
+     -fx-graphic: url("../images/money.png");
+}
+
+.btnXhiroDitore:focused {
+     -fx-graphic: url("../images/money_white.png");
+     -fx-background-color : #DA251E;
+     -fx-text-fill : white;
+}
+
+.btnAdd {
+     -fx-background-color : #DA251E;
+     -fx-graphic: url("../images/add.png");
+}
+
+.btnExcel {
+     -fx-background-color : #0093DC;
+	 -fx-graphic: url("../images/excel.png");
+}
+
+.btnEdit {
+     -fx-background-color : #DA251E;
+ 	-fx-graphic: url("../images/edit.png");
+}
+
+.btnPdf {
+     -fx-background-color : #0093DC;
+ 	-fx-graphic: url("../images/pdf.png");
+}
+
+.delete {
+	-fx-graphic: url("../images/delete.png");
+    -fx-cursor: hand;
+    -fx-background-color :  transparent;
+}
